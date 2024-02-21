@@ -1,0 +1,6 @@
+https://www.eclipse.org/jetty/download.html
+//Start Jetty
+java -jar start.jar
+http://localhost:8080 in your web browser.
+Stop Jetty: To stop Jetty, you can press Ctrl + C
+C:\Users\joeoa\Downloads\jetty-home-12.0.6\jetty-home-12.0.6
