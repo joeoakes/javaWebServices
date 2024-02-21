@@ -1,6 +1,17 @@
-https://www.eclipse.org/jetty/download.html
-//Start Jetty
-java -jar start.jar
-http://localhost:8080 in your web browser.
-Stop Jetty: To stop Jetty, you can press Ctrl + C
-C:\Users\joeoa\Downloads\jetty-home-12.0.6\jetty-home-12.0.6
+You will need Maven installed - get the zip
+ttps://maven.apache.org/download.cgi.
+C:\Users\joeoa\Downloads\apache-maven-3.9.6-bin\apache-maven-3.9.6
+C:\Users\joeoa\Downloads\apache-maven-3.9.6-bin\apache-maven-3.9.6\bin
+
+Navigate to "Settings" (or "Preferences" on macOS) > "Plugins".
+In the "Installed" tab, search for "Jetty" in the search bar.
+
+Go to the "Run" menu and select "Edit Configurations...".
+Click the "+" button to add a new configuration, and choose "Jetty Server" from the dropdown menu.
+
+Configure the Jetty server settings in the dialog that appears:
+Name: Enter a name for your Jetty run configuration.
+Jetty Server: Choose the version of Jetty you want to use (if multiple versions are available).
+HTTP Port: Specify the port on which Jetty will listen for HTTP requests (e.g., 8080).
+WebApp: Specify the location of your web application directory or WAR file.
+You can use the project directory, or specify a different directory if your web application is located elsewhere.
