@@ -1,3 +1,5 @@
+package main;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -8,7 +10,7 @@ public class WebServiceCaller {
     public static void main(String[] args) {
         try {
             // Specify the URL of the web service
-            String url = "https://api.example.com/webservice";
+            String url = "http://localhost:8000/hello";
 
             // Create a URL object
             URL obj = new URL(url);
